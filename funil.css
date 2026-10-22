@@ -86,3 +86,10 @@ body.funil { background: var(--creme); }
 .fn-bar-2 { font-size: 2rem; margin-top: 10px; }
 @media (max-width: 560px) { .fn-bar { padding: 22px 5%; } .fn-bar-1 { font-size: 1.08rem; } .fn-bar-2 { font-size: 1.5rem; } }
 .fn-ok { color: #fff !important; font-weight: 700; font-size: 1.15em; }
+/* faixa do upsell em linhas, tamanho proporcional */
+.fn-bar-up { padding: 24px 5%; }
+.fn-bar-up .fn-bar-1 { font-size: 1.15rem; }
+.fn-bar-up .fn-ok { font-size: 1em; }
+.fn-bar-1b { font-size: 1rem; margin-top: 2px; opacity: .95; }
+.fn-bar-up .fn-bar-2 { font-size: 1.4rem; line-height: 1.45; margin-top: 12px; }
+@media (max-width: 560px) { .fn-bar-up .fn-bar-1 { font-size: 1.02rem; } .fn-bar-1b { font-size: .92rem; } .fn-bar-up .fn-bar-2 { font-size: 1.2rem; } }
