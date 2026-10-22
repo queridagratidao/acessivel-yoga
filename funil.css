@@ -78,7 +78,7 @@ body.funil { background: var(--creme); }
 .fn-access:hover { background: var(--verde-escuro); color: #fff; }
 .fn-access span { flex: 1; text-align: center; }
 .fn-access i { font-size: 1.2rem; flex-shrink: 0; }
-.fn-bar-up .fn-bar-1 i { color: var(--verde-escuro); }
+.fn-bar-up .fn-bar-1 i { color: #fff; font-size: 1.45em; vertical-align: -4px; }
 .fn-pill { display: inline-block; background: var(--verde-escuro); color: #fff; padding: 0 10px; border-radius: 8px; white-space: nowrap; }
 /* faixa do topo maior */
 .fn-bar { padding: 28px 5%; }
