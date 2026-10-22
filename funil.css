@@ -74,3 +74,7 @@ body.funil { background: var(--creme); }
 .fn-bar-2 { font-family: var(--serif); font-weight: 700; font-size: 1.55rem; line-height: 1.25; margin-top: 6px; color: var(--dourado-suave); }
 .fn-bar-gold .fn-bar-2 { color: #fff; }
 @media (max-width: 560px) { .fn-bar-1 { font-size: .95rem; } .fn-bar-2 { font-size: 1.3rem; } }
+.fn-access { display: flex; align-items: center; gap: 12px; margin: 30px auto 0; padding: 15px 20px; border: 2px solid var(--verde-escuro); border-radius: 40px; background: #fff; color: var(--verde-escuro); text-decoration: none; font-size: 1rem; transition: .2s; }
+.fn-access:hover { background: var(--verde-escuro); color: #fff; }
+.fn-access span { flex: 1; text-align: center; }
+.fn-access i { font-size: 1.2rem; flex-shrink: 0; }
